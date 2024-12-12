@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/davidjjung/biomesoplaceable/issues"
+license = "MIT License"
+
+[[mods]]
+modId = "biomesoplaceable"
+version = "${file.jarVersion}"
+logoFile = "logo.png"
+itemIcon = "minecraft:dirt"
+configBackground = "minecraft:textures/block/dirt.png"
+authors = "DavigJ"
+credits = "AuroraAster"
+displayURL = "https://modrinth.com/mod/biomesoplaceable"
+displayName = "Biomes O' Placeable"
+description = '''
+    Modpack maker tool. Allows certain BoP plants to be placeable on block tags instead of being hard-coded, allowing for edits via datapacks.
+    '''
+
+[[dependencies.biomesoplaceable]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.biomesoplaceable]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.2,)"
+ordering = "NONE"
+side = "BOTH"
